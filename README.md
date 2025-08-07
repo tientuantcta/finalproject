@@ -1,9 +1,14 @@
-BackEnd
--mở BE bằng interllij
--tạo schema project_sell trong mysql workbench
--copy project_sell.sql, trỏ vào schema project_sell và run đoạn mã đã copy trong mysqlworkbench trong để tạo database cho prj.
--đổi mật khẩu mysql trên máy đúng với password trong application.properties
--mở interllij, chọn JDK 17 để chạy BE.
-FrontEnd
--run terminal npm install cho lần chạy đầu tiên
-- các lần sau chỉ cần run: npm start để chạy prj.
+# Hướng dẫn chạy dự án
+
+## BackEnd
+- Mở BE bằng IntelliJ
+- Tạo schema `project_sell` trong MySQL Workbench
+- Copy file `project_sell.sql`, trỏ vào schema `project_sell` và chạy đoạn mã đã copy trong MySQL Workbench để tạo database cho project
+- Đổi mật khẩu MySQL trên máy đúng với password trong `application.properties`
+- Mở IntelliJ, chọn JDK 17 để chạy BE
+
+## FrontEnd
+- Mở terminal và chạy `npm install` cho lần chạy đầu tiên
+- Các lần sau chỉ cần chạy: `npm start` để khởi động project
+
+#Tài khoản Admin: admin@gmail.com, password: admin
